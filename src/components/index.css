@@ -1,0 +1,193 @@
+.bg-container{
+    background-color: green;
+    color:#fff;
+    height: 4rem;
+    display: flex;
+justify-content: center;}
+.heading{
+    padding-left: 4rem;
+}
+.nav{    
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    padding-right: 32rem;
+}
+.listItem{
+    padding-left: 42px;
+    
+}
+.cart{
+    padding:2rem;   
+    padding-right: rem; 
+}
+.para{
+    padding:1rem; 
+    margin-right:2rem
+}
+
+
+/* ORDERDETAILS */
+
+
+.OrderHeaderDetails{
+    display: flex;
+    justify-content: flex-start;
+    box-shadow:0,0,#000;
+    font-size: 12px;
+}
+.paraUnderline{
+    border-bottom: 1px solid #000;
+}
+.orderHeaderLowerSection{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.orderHeaderHeading{        
+    font-size: 16px;
+}
+.backButton{
+    color:green;
+    font-weight: bold;
+    background-color: #fff;
+    border: solid 1.5px green;
+    border-radius: 8px;
+    margin: 12px;
+}
+.approvalButton{
+    color:#fff;
+    background-color: green;
+    border: solid 1.5px green;
+    border-radius: 8px;
+
+
+}
+.OrderHeaderMain{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin:1rem;
+    padding: 12px;
+
+}
+/* OrderDetails */
+
+
+.orderdetailsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1rem;
+    padding: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.orderDetailsPara{
+    color:grey;
+    font-size: 16px;
+}
+.orderDetailsHeading{
+    font-size: 16px;
+
+}
+
+/* SEARCH */
+
+
+
+.searchcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+
+}
+
+.searchcont{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.searchIcon{
+    position:relative
+}
+.search{
+    width:482px;
+    height: 40px;
+    border: solid 1px ;
+    border-radius: 8px;
+}
+.adddItem{
+        color:green;
+        font-weight: bold;
+        background-color: #fff;
+        border: solid 1.5px green;
+        border-radius: 8px;
+        margin: 12px;
+    }
+.printIcon{
+    color:green;
+    padding-right: 5rem;
+}
+.addContainer{
+    display: flex;
+}
+
+/* Main Content */
+
+
+.mainHeading{
+    font-size: 16px;
+    color:grey;
+    font-weight: 400;
+
+}
+.maintable{
+    margin: 12px;
+    border:solid 1px grey ;
+    border-radius: 12px;
+}
+
+
+.image{
+    width: 40px;
+
+}
+.status{
+    padding-left: 4rem;
+}
+.mainmatter{
+    color: grey;
+    font-size: 14px;
+}
+.mainBody{
+    border: solid 1px gray;
+    border-radius: 6px;
+}
+
+.cross{
+    display: flex;
+    justify-content: flex-start;
+}
+.statusButton{
+    background-color: #fff;
+    border: 0px;
+}
+.Approvedbtm{
+    background-color: #00ff62;
+    color:black;
+}
+.missingbtm{
+    background-color: #ff6262;
+    color: black;
+}
+
+
+
+.appContainer{
+    margin: 2rem;
+}
